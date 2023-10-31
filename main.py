@@ -12,7 +12,7 @@ def HsEyUn():
 		us3 = 'qwertyuiopasdf_ghjklzxcvbnm'
 		us0 = '09876_54321'
 		use1 = us0 + us3
-		userx = ''.join((random.choice(use1) for x in range(4)))
+		userx = ''.join((random.choice(use1) for x in range(3)))
 		usr = userx
 		HsEu = ('1122334455', 'Aa123123', 'Aa123456', '12341234', 'qwer1234', '1234qwer')
 		t1 = random.choice(usr)
